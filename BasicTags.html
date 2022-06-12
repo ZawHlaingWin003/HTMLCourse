@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Keywords for search engines -->
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<!-- Description for web page -->
+	<meta name="description" content="Free Web tutorials">
+	<!-- Author of web page -->
+	<meta name="author" content="John Doe">
+	<!-- Make website look good on all devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Refresh doc every 10sec -->
+	<!-- <meta http-equiv="refresh" content="10"> -->
+	<title>Basic HTML Tags</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<p>This is Paragraph</p>
+
+	<h1>This is H1</h1>
+	<h2>This is H2</h2>
+	<h3>This is H3</h3>
+	<h4>This is H4</h4>
+	<h5>This is H5</h5>
+	<h6>This is H6</h6>
+
+	<h6>Heading6</h6>
+	<p class="p6">Heading6</p>
+	<br>
+	<h5>Heading5</h5>
+	<p class="p5">Heading5</p>
+	<br>
+	<h4>Heading4</h4>
+	<p class="p4">Heading4</p>
+	<br>
+	<h3>Heading3</h3>
+	<p class="p3">Heading3</p>
+	<br>
+	<h2>Heading2</h2>
+	<p class="p2">Heading2</p>
+	<br>
+	<h1>Heading1</h1>
+	<p class="p1">Heading1</p>
+
+	<pre>
+		function testFunction(strTest){
+			alert(strTest);
+		}
+			Bridges
+			_______
+		I like a bridge,
+		Anykind of bridge at all!
+		Do you remember This Poem??
+	</pre>
+
+	<br>
+
+	<bdo dir="rtl">I love you</bdo>
+	<br>
+
+	<!-- behavior="slide, alternate" direction=> up, down, left(default) -->
+	<marquee behavior="none" direction="right" bgcolor="red">
+		<h3>Welcom To the WoRlD</h3>
+	</marquee>
+	<br><br>
+	<!-- Different Italic Tags -->
+	<address>This is address</address>
+	<i>This is italic</i><br>
+	<em>This is emphasis</em><br>
+	<cite>This is cite</cite><br>
+	<dfn>This is definition</dfn><br>
+	<var>This is variable</var><br><br>
+
+	<!-- Different Bold Tags -->
+	<b>This is bold</b><br>
+	<strong>This is strong</strong><br><br>
+
+	<!-- Different Underline Tags-->
+	<u>This is underline</u><br>
+	<ins>This is insert</ins><br><br>
+
+	<!-- Different strikes Tags -->
+	<s>This is S tag</s><br>
+	<strike>This is StrikeThrough</strike><br>
+	<del>This is delete</del><br>
+
+	<p>3<sup>2</sup>+4<sup>3</sup></p>
+	<p>H<sub>2</sub>O,CO<sub>2</sub></p>
+
+	<big>This is bigger</big><br><br>
+
+	<!-- Different Smaller Tags -->
+	<small>This is smaller</small><br>
+	<tt>This is teletype</tt><br>
+	<code>This is code</code><br>
+	<samp>This is sample</samp><br>
+	<kbd>Ctrl</kbd><br>
+	<p>Ctrl</p>
+
+	
+
+	<p>This is short term of <abbr title="Abbreviations">ABBR</abbr></p>
+	<p>This is short term of <acronym title="Extensible HyperText Markup Language">XHTML</acronym></p>
+
+	<blockquote>This is blockquote This is blockquote This is blockquoteThis is blockquoteThis is blockquoteThis isblockquoteThis is blockquoteThis is blockquotedThis is blockquoteThis is blockquoteThis is blockquoteThis isblockquoteThis is blockquoteThis is blockquoteThis is blockquote.</blockquote>
+	<q>This is inside the quotation marks.</q>
+
+	<xmp>This can use <a> and <p>. I mean "Inside <xmp> tag, u can use tags!!:)"</xmp>
+
+				<p>Your favouite food is <mark>Strawberry</mark></p>
+				<!-- _blank vs blank -->
+				<p>Click the following links. Did you notice the differences?</p>
+				<a href="https://www.google.com/" target="_blank" title="Go to Google">Google</a>
+				<a href="https://www.youtube.com" target="_blank" title="This is Youtube">Youtube</a>
+				<br>
+				<a href="others/coffee.html" target="blank">Coffee</a>
+				<a href="others/computer.html" target="blank">Computer</a>
+				<a href="others/other.html" target="blank">Other</a>
+				<br>
+
+				<a href="mailto:davidzaw1111@gmail.com">Send Email</a>
+				<br>
+
+				<!-- Img Downloadable Link -->
+				<a href="img/pg3.jpg">View Link</a>
+				<a href="img/pg3.jpg" download>Download Link</a>
+				<a href="img/pg3.jpg" download="view">Download with name Link</a>
+
+
+				<!-- Img Map -->
+				<h2>Image Map With Coordinate</h2>
+				<img src="img/whitelaptop.jpg" alt="Workplace" usemap="#workmap">
+				<map name="workmap">
+					<area shape="rect" coords="313,177,536,382" alt="Computer" href="others/computer.html">
+					<area shape="circle" coords="142,306,33" alt="Coffee" href="others/coffee.html">
+				</map>
+
+				<h2>Resize Page To See Other Image</h2>
+				<picture>
+					<source media="(min-width:980px)" srcset="img/pg1.jpg">
+					<source media="(min-width:650px)" srcset="img/pg2.jpg">
+					<source media="(min-width:465px)" srcset="img/pg3.jpg">
+					<img src="img/pg4.jpg" alt="Flowers"	>
+				</picture>
+				<br>
+
+				<h2>Dialog Box</h2>
+				<dialog id="dialogBox">
+					<form action="" method="dialog">
+						<label for="food">Choose Foods</label>
+						<select id="food">
+							<option value="pizza">Pizza 🍕</option>
+							<option value="vodka">Vodka 🍺</option>
+							<option value="hamburger">Hamburger 🍔</option>
+						</select>
+
+						<menu>
+							<button id="confirmBtn">Cancle</button>
+							<button id="confirmBtn">Ok</button>
+						</menu>
+					</form>
+				</dialog>
+				<center>
+					<button id="showDialog">Show Dialog</button>
+				</center>
+				<br>
+
+				<h2>Video</h2>
+				<p>For Video to play, use muted or controls</p>
+				<video controls muted loop poster="img/pg3.jpg" width="300px" height="200px">
+					<source src="img/Slander.mp4" type="video/mp4">
+				</video>
+				<!-- <video src="img/Slander.mp4" autoplay controls width="300px" height="200px"></video> -->
+				<!-- <embed src="img/Slander.mp4" type="video/mp4"> -->
+				<br>
+
+				<h2>Audio</h2>
+				<!-- <audio autoplay muted controls>
+					<source src="img/Good-Luck.mp3" type="audio/mp3">
+				</audio> -->
+				<audio src="img/Good-Luck.mp3" type="audio/mp3" autoplay controls muted></audio>
+				<!-- <embed src="img/Good-Luck.mp3" type="audio/mp3"> -->
+				<br>
+
+				<h2>Youtube Video</h2>
+				<embed width="300" height="200" src="https://www.youtube.com/embed/q8HVZPu5240">
+				</embed>
+				<!-- Go to youtube vid and click share. Go to embed and copy link. MV amyar su ma ya -->
+				<iframe width="300" height="200" src="https://www.youtube.com/embed/xXsQlMhmyTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+				<h2>Unordered Lists</h2>
+				<ul>
+					<li>Apple</li>
+					<li>Orange</li>
+					<li>Watermalon</li>
+				</ul>
+
+				<h2>Ordered Lists</h2>
+				<!-- Type => 1, A, a, I, i -->
+				<ol type="A" start="3">
+					<li>Apple</li>
+					<li>Orange</li>
+					<li>Watermalon</li>
+				</ol>
+
+				<details>
+					<summary>Summery Example</summary>
+					<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+				</details>
+
+
+				<hr>
+
+				<h2>HTML Form</h2>
+				<!-- autocomplete="on" is default. Browser auto complete values that users have been entered -->
+				<!-- Input Attribute => value, placeholder, required, readonly, disabled, size, maxlength, min, max, step, multiple, autofocus -->
+				<form autocomplete="off">
+					<fieldset>
+						<legend>Fieldset : </legend>
+						<label for="fname">First name:</label><br>
+						<input type="text" value="John"><br>
+						<label for="lname">Last name:</label><br>
+						<input type="text" value="Doe"><br><br>
+						<input type="submit" value="Submit">
+					</fieldset><br>
+					<label>Name : </label>
+					<input type="text" placeholder="Name"><br>
+
+					<label>Email : </label>
+					<input type="email"><br>
+
+					<label>Password : </label>
+					<input type="password"><br>
+
+					<label>Textarea : </label><br>
+					<textarea cols="30" rows="3"></textarea><br>
+
+					<label>Gender : </label>
+					<input type="radio" name="gender">
+					<label>Male</label>
+					<input type="radio" name="gender">
+					<label>Female</label>
+					<input type="radio" name="gender">
+					<label>Other</label><br>
+
+					<label>Checkbox : </label>
+					<input type="checkbox">
+					<label>Myanmar</label>
+					<input type="checkbox">
+					<label>Japan</label>
+					<input type="checkbox">
+					<label>Korea</label><br>
+
+					<label>File : </label>
+					<input type="file">
+
+					<label>Color : </label>
+					<input type="color" value="#ff0000"><br>
+
+					<label>Phone : </label>
+					<input type="tel" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+					<input type="text" pattern="[A-Za-z]{3}" title="Three Letter country code">
+					<br>
+
+					<label>Date : </label>
+					<input type="date">
+					<input type="month">
+					<input type="time">
+					<input type="week">
+					<br>
+
+					<label>Date With Limit : </label>
+					<input type="date" min="2000-05-01">
+					<input type="date" max="1980-10-31"><br>
+
+					<label>Date & Time </label>
+					<input type="datetime-local"><br>
+
+					<label>Number : </label>
+					<input type="number" min="0" max="100" step="10" value="30"><br>
+
+					<label>Range : </label>
+					<input type="range" min="0" max="50" step="5" value="20"><br>
+
+					<label>Meter : </label>
+					<meter value="50" max="100"></meter><br>
+
+					<label>Progress : </label>
+					<progress></progress>
+					<progress value="5" max="20"></progress><br>
+
+					<label>Select Language : </label>
+					<select size="3" multiple>
+						<option>English</option>
+						<option>Myanmar</option>
+						<option>Russia</option>
+						<option>French</option>
+						<option>India</option>
+						<option>American</option>
+					</select><br>
+
+					<label>Select Phone : </label>
+					<select>
+						<optgroup label="Choose I Phone">
+							<option>I Phone8</option>
+							<option>I Phone12</option>
+							<option>I PhoneS</option>
+						</optgroup>
+						<optgroup label="Choose Oppo">
+							<option>Oppo A12</option>
+							<option>Oppo C15</option>
+						</optgroup>
+						<option>No Name 1</option>
+						<option>No Name 2</option>
+					</select><br>
+
+					<label>DataList: </label>
+					<input list="browsers" name="browser">
+					<datalist id="browsers">
+						<option value="Internet Explorer">
+						<option value="Firefox">
+						<option value="Chrome">
+						<option value="Opera">
+						<option value="Safari">
+					</datalist><br>
+
+					<p contenteditable="true">Hey U Can Edit This Text!</p>
+
+					<input type="image" src="img/realmoon.jpg" alt="Real Moon" width="40" height="40">
+					<input type="reset">
+					<input type="submit">
+
+				</form>
+
+				<!-- HTML Layoute Example
+					<header>
+						<nav></nav>
+					</header>
+					<main>
+						<article>
+							<section></section>
+							<section></section>
+							<section></section>
+							.
+							.
+							.
+						</article>
+					</main>
+					<footer>
+
+					</footer>
+				-->
+
+
+
+
+		<!-- HTML Style Guide -->
+	<!-- 
+		# Always Declare Document Type
+		# Add lang Attribute
+		# Add meta Datas
+		# Use Comments
+		# Close All Elements
+		# Use Lowercase Element Name(Tag Names)
+		# Use Lowercase Attribute Name
+		# Use Lowercase File Name
+		# Always Quotes Attribute Value
+		# Always give Alt, Width and Height for Images
+		# Avoid Long Code Line
+		# Never Skip <title> Element
+
+	-->
+				<br><br>
+				<div style="text-align:center">
+					<button onclick="playPause()">Play/Pause</button>
+					<button onclick="makeBig()">Big</button>
+					<button onclick="makeSmall()">Small</button>
+					<button onclick="makeNormal()">Normal</button>
+					<br><br>
+					<video id="video1" width="420">
+						<source src="img/Slander.mp4" type="video/mp4">
+					</video>
+				</div>
+
+				<button onclick="getLocation()">Get Location</button>
+				<p id="demo"></p>
+
+				<div>
+					<input type="text" list="suggestions" placeholder="Search Cars..." style="margin: 50px; padding: 10px; border-radius: 10px; outline: none; border-width: 1px; box-shadow: 0 0 10px gray;">
+					<datalist id="suggestions">
+						<option value="Mercedes">Detail: One of the best modern cars.</option>
+						<option>Tesla</option>
+						<option>Lamborghini</option>
+						<option value="BMW">Detail: Fastest car in myanmar.</option>
+						<option>Race Nik</option>
+						<option>Blah blah blah</option>
+					</datalist>
+				</div>
+
+				<script>
+					var myVideo = document.getElementById("video1");
+
+					function playPause() {
+						if (myVideo.paused)
+							myVideo.play();
+						else
+							myVideo.pause();
+					}
+
+					function makeBig() {
+						myVideo.width = 560;
+					}
+
+					function makeSmall() {
+						myVideo.width = 320;
+					}
+
+					function makeNormal() {
+						myVideo.width = 420;
+					}
+
+					var x = document.getElementById("demo");
+
+					function getLocation() {
+						if (navigator.geolocation) {
+							navigator.geolocation.getCurrentPosition(showPosition, showError);
+						} else {
+							x.innerHTML = "Geolocation is not supported by this browser.";
+						}
+					}
+
+					function showPosition(position) {
+						x.innerHTML = "Latitude: " + position.coords.latitude +
+							"<br>Longitude: " + position.coords.longitude;
+					}
+
+					function showError(error) {
+						switch (error.code) {
+							case error.PERMISSION_DENIED:
+								x.innerHTML = "User denied the request for Geolocation."
+								break;
+							case error.POSITION_UNAVAILABLE:
+								x.innerHTML = "Location information is unavailable."
+								break;
+							case error.TIMEOUT:
+								x.innerHTML = "The request to get user location timed out."
+								break;
+							case error.UNKNOWN_ERROR:
+								x.innerHTML = "An unknown error occurred."
+								break;
+						}
+					}
+
+
+					// function showPosition(position) {
+					// 	var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+					// 	var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=
+					// 	"+latlon+"&zoom=14&size=400x300&sensor=false&key=YOUR_KEY";
+
+					// 	document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+					// }
+
+					document.getElementById('showDialog')
+					.addEventListener('click', () => dialogBox.showModal());
+				</script>
+</body>
+
+</html>
